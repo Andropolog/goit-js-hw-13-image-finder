@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Image Finder</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="header">
+        <p class="title">Найдутся любые фотографии!</p>
+        <form class="search-form" id="search-form">
+            <input type="text" name="query" autocomplete="off" placeholder="Введите запрос..."
+                class="form-input form-control" />
+
+
+
+            <button class="btn btn-warning btn-sub" type="submit">
+                <span class=" spinner spinner-border spinner-border-sm is-hidden" role="status" aria-hidden="true"></span>
+                <span class="label">Найти</span>
+            </button>
+
+
+        </form>
+    </header>
+
+        <ul class="gallery">
+            <h1 class="great">"Лучший в мире сервис поиска фотографий по версии одного хорошего человека"</h1>
+        </ul>
+        <div class="helper"></div>
+        <script src="./index.js"></script>
+</body>
+
+</html>
